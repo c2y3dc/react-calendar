@@ -17,14 +17,14 @@ const styles = {
 
 const Main = (props) => {
   return (
-    <div style={styles.container}>
-      <div style={styles.header}>
-        <p style={{margin: 0}}>
-          React Calendar
-        </p>
-      </div>
-      {props.children}
+  <div style={styles.container}>
+    <div style={styles.header}>
+      <p style={{margin: 0}}>
+        React Calendar
+      </p>
     </div>
+    {props.children}
+  </div>
   )
 }
 
